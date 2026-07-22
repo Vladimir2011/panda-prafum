@@ -1,0 +1,47 @@
+{
+  "name": "panda-parfum",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@11.9.0",
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "generate": "nuxt generate",
+    "lint": "eslint . --cache",
+    "lint:fix": "eslint . --fix --cache",
+    "postinstall": "nuxt prepare",
+    "prepare": "nuxt prepare",
+    "preview": "nuxt preview",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@nuxt/fonts": "^0.14.0",
+    "@nuxtjs/seo": "^5.3.3",
+    "nuxt": "^4.5.0",
+    "nuxt-schema-org": "^6.2.7",
+    "vue": "^3.5.40"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.16.0",
+    "@nuxt/test-utils": "^4.0.3",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitest/coverage-v8": "^4.1.10",
+    "@vue/test-utils": "^2.4.11",
+    "eslint": "^10.7.0",
+    "happy-dom": "^20.11.0",
+    "prettier": "^3.9.6",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.0",
+    "vitest": "^4.1.10",
+    "vue-tsc": "^3.3.7"
+  }
+}

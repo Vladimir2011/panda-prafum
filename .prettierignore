@@ -1,0 +1,28 @@
+# Dependencies and package manager data
+node_modules/
+.pnpm-store/
+
+# Nuxt and build artifacts
+.nuxt/
+.output/
+.data/
+.nitro/
+.cache/
+dist/
+
+# Generated reports
+coverage/
+*.lcov
+
+# IDE, environment and local tooling
+.idea/
+.vscode/
+.serena/
+.codex/
+.env
+.env.*
+!.env.example
+
+# Binary assets
+public/*.ico
+public/*.png

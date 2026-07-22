@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 -2 220 220">
+  <path fill="#7f2942" d="M56 5h68l18 24-18 24H56L38 29 56 5Z"/>
+  <path fill="#f7e7cf" d="M42 27h96v4H42z"/>
+  <path fill="#7f2942" d="M67 51h46v22H67z"/>
+  <path fill="#e9c77c" d="M72 55h36v10H72z"/>
+  <rect width="164" height="138" x="8" y="69" fill="#7f2942" rx="32"/>
+  <rect width="142" height="116" x="19" y="80" fill="#fff9ef" rx="25"/>
+  <path fill="#7f2942" d="M35 109c4-20 20-29 39-18l-2 35-37-17Zm110 0c-4-20-20-29-39-18l2 35 37-17Z"/>
+  <path fill="#7f2942" d="M49 148c0-22 14-38 29-32 13 5 17 28 7 47-8 14-36 8-36-15Zm82 0c0-22-14-38-29-32-13 5-17 28-7 47 8 14 36 8 36-15Z"/>
+  <circle cx="74" cy="138" r="5" fill="#fff9ef"/>
+  <circle cx="106" cy="138" r="5" fill="#fff9ef"/>
+  <circle cx="74" cy="139" r="2.3" fill="#1c1917"/>
+  <circle cx="106" cy="139" r="2.3" fill="#1c1917"/>
+  <path fill="#7f2942" d="M80 169c4-5 16-5 20 0-2 8-18 8-20 0Z"/>
+  <path fill="none" stroke="#7f2942" stroke-linecap="round" stroke-width="4" d="M90 174v6m0 0c-5 7-12 7-16 2m16-2c5 7 12 7 16 2"/>
+</svg>
