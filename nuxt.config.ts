@@ -1,4 +1,3 @@
-import tailwindcss from '@tailwindcss/vite'
 import { defineOrganization } from 'nuxt-schema-org/schema'
 
 const siteUrl = process.env.NUXT_SITE_URL || 'https://panda-parfum.example'
@@ -10,7 +9,41 @@ export default defineNuxtConfig({
     enabled: true,
   },
 
-  modules: ['@nuxtjs/seo', '@nuxt/fonts', '@nuxt/eslint'],
+  modules: ['@nuxtjs/seo', '@nuxt/fonts', '@nuxt/ui', '@nuxt/eslint'],
+
+  ui: {
+    fonts: false,
+    colorMode: false,
+    theme: {
+      colors: ['primary', 'secondary', 'success', 'info', 'warning', 'error', 'neutral'],
+      transitions: true,
+      defaultVariants: {
+        color: 'primary',
+        size: 'md',
+      },
+    },
+    experimental: {
+      componentDetection: true,
+    },
+  },
+
+  icon: {
+    provider: 'none',
+    clientBundle: {
+      scan: true,
+      icons: [
+        'lucide:badge-percent',
+        'lucide:gift',
+        'lucide:leaf',
+        'lucide:palette',
+        'lucide:percent',
+        'lucide:sparkles',
+        'lucide:tags',
+        'lucide:user-round',
+      ],
+      sizeLimitKb: 64,
+    },
+  },
 
   fonts: {
     provider: 'google',
@@ -35,10 +68,6 @@ export default defineNuxtConfig({
   },
 
   css: ['~/assets/css/main.css'],
-
-  vite: {
-    plugins: [tailwindcss()],
-  },
 
   typescript: {
     strict: true,
